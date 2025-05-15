@@ -196,7 +196,7 @@ represents the content of the collection must be in the same file.
         .allMethods
         .firstWhereOrNull((method) => method.name == 'toJson');
     final redirectedFreezedClass = redirectedFreezedConstructors
-        .singleOrNull?.redirectedConstructor!.enclosingElement.name;
+        .singleOrNull?.redirectedConstructor!.enclosingElement3.name;
     final generatedJsonTypePrefix = _generatedJsonTypePrefix(
       hasFreezed: hasFreezed,
       redirectedFreezedClass: redirectedFreezedClass,
